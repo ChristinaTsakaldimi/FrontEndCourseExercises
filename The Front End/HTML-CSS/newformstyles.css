@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(247, 155, 75);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    color: ;
+    text-align: right;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: dotted white 1px;
+    
+
+}
+#createaccount{
+    color:#f8edeb;
+    text-align: left;
+}
+
+button{
+    color: rgb(247, 155, 75);
+    font-weight: 700;
+    margin-top: 5px; 
+    background-color: #f4f1de;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: inherit;
+   }
+
+input{
+    padding: 6px;
+    margin: 3px;
+    caret-color: rgb(245, 114, 0);
+}
+
+button[type=reset]{
+    margin-left: 207px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f1de;
+}
+
