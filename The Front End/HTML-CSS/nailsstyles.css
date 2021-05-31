@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to right bottom, #ffdefb, #e7e4ff, #cdebff, #bbf1ff, #baf3ef);
+    font-family: sans-serif;
+    margin:20px;
+}
+h1 {
+    color:rgb(148, 60, 148);
+    border: dotted rgb(77, 2, 77) 3px;
+    font-weight: 800;
+    font-size: 3.25em;
+    margin-bottom: 30px;
+    text-shadow: 2px 3px 0px #898999;
+    line-height: 1.2;
+    
+}
+h2, h3 {
+    text-align: left;
+    color:rgb(143, 38, 143);
+    font-weight: 700;
+    font-size: 2.25em;
+}
+.info{
+    text-align: left;
+    font-size: large;
+    font-size: 1.25em;
+}
+.link {
+    color: rgb(197, 0, 197) ;
+    text-decoration: none;
+    font-size: 1.26em;
+    font-weight: 700;
+}
+#nailbed {
+
+}
+img {
+    max-width:90%;
+    height:auto;
+    margin-left: 50px;
+}
