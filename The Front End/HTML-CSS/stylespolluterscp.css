@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to bottom, #FF9AEF, #FEDAC1,#D5E1CF, #B7E6D9);
+    color: rebeccapurple
+    background-color: #B7E6D9;
+    background-repeat: no-repeat;
+}
+main{
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+ .center {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid rgb(248, 242, 246);
+    border-collapse: collapse;
+    border-style: inset;
+    border-radius: 20%;
+}

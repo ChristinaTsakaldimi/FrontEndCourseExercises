@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to right bottom, #ffdefb, #e7e4ff, #cdebff, #bbf1ff, #baf3ef);
+    font-family: sans-serif;
+    margin: 0;
+
+}
+h1 {
+    color:rgb(148, 60, 148);
+    border: dotted rgb(77, 2, 77) 3px;
+    font-weight: 800;
+    font-size: 3.25em;
+    margin-bottom: 30px;
+    text-shadow: 2px 3px 0px #898999;
+    line-height: 1.2;
+    
+}
+h2, h3 {
+    text-align: left;
+    color:rgb(143, 38, 143);
+    font-weight: 700;
+    font-size: 2.25em;
+    margin-left: 50px;
+}
+.info{
+    text-align: left;
+    font-size: large;
+    font-size: 1.25em;
+}
+.link {
+    color: rgb(197, 0, 197) ;
+    text-decoration: none;
+    font-size: 1.26em;
+    font-weight: 700;
+}
+#nailbed {
+
+}
+img {
+    width: 500px;
+    height: 450px;
+    margin-left: 50px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+*{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+p{
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 80px;
+    margin: auto;
+}
+section, header{
+    width: 100%;
+    display: flex;
+}
