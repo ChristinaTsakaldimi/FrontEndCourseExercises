@@ -1,7 +1,8 @@
 body {
     background-image: linear-gradient(to right bottom, #ffdefb, #e7e4ff, #cdebff, #bbf1ff, #baf3ef);
     font-family: sans-serif;
-    margin:20px;
+    margin: 0;
+
 }
 h1 {
     color:rgb(148, 60, 148);
@@ -18,6 +19,7 @@ h2, h3 {
     color:rgb(143, 38, 143);
     font-weight: 700;
     font-size: 2.25em;
+    margin-left: 50px;
 }
 .info{
     text-align: left;
@@ -34,7 +36,25 @@ h2, h3 {
 
 }
 img {
-    max-width:90%;
-    height:auto;
+    width: 500px;
+    height: 450px;
     margin-left: 50px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+*{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+p{
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 80px;
+    margin: auto;
+}
+section, header{
+    width: 100%;
+    display: flex;
 }
