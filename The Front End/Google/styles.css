@@ -1,0 +1,7 @@
+.center{
+    position: absolute;
+    margin: 200px;
+}
+button[type="submit"]{
+    display: none;
+}
