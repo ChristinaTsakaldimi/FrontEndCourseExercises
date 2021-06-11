@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <!--  Start of Navigation bar -->
+ <!--  Start of Navigation bar -->
     <nav>
         <a href="#gmail">Gmail</a>
         <a href="#images">Images</a>
@@ -21,16 +21,20 @@
     </nav>
 <!-- End of Navigation bar -->
 
-    <!-- Start of Main section -->
+<!-- Start of Main section -->
     <main>
-        <div class="center">
-        <form action="/search" method="post">
-        <label for="searchbar">
-            <img src="images/logo.png" alt="google's logo">
-        </label>
-        <input type="search" name="q" id="searchbar">
+        <img src="images/logo.png" alt="google's logo" class="logo">
+
+        <form action="/search" method="post"><br><br>
+            <div class="s-box">
+                <img src="images/search.svg" class="searchicon">
+                <input type="search" name="q" id="searchbar" class="userinput">
+                <img src="images/vs.png" alt="voice assistant icon" class="voiceicon">
+                <input type="submit" value="Google Search" class="sbutton">
+                <input type="submit" value="I'm feeling lucky" class="sbutton">
+            </div>
     </form>
-    </div>
+    
     </main>
     <!-- End of Main Section -->
 </body>
