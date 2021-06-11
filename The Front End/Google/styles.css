@@ -2,6 +2,6 @@
     position: absolute;
     margin: 200px;
 }
-button[type="submit"]{
+button {
     display: none;
 }
