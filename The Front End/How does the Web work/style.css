@@ -1,4 +1,46 @@
-html{
+html {
+    scroll-behavior: smooth;
+  }
+body {
     font-family: 'Lateef', cursive;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    text-align: left;
+    font-size: 1.1em;
+    padding-bottom: 50px;
+    color: white;
+    background-image: url(./img/pexels-photo-3745234.jpeg);
+}
+h1, h2, h3{
+    font-family: 'Lateef', cursive;
+}
+h1{
+    font-size: 3em; 
+}
+header img{
+    max-height: 1000px;
+    max-width: 900px;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+header, nav{
+    text-align: center;
+}
+nav{
+    padding-bottom: 5rem;
+}
+a{
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(251, 255, 250);
+}
+section{
+    margin: 2em;
+  
+}
+p{
+    margin-bottom: 3rem;
+}
+#html{
+    padding-bottom: 50px;
 }
