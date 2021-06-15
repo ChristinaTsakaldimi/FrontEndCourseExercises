@@ -6,17 +6,97 @@
     <meta name="author" content="By SHA student Christina Tsakaldimi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <!-- Header start -->
-    <header></header>
+    <header>
+        <h1>How does the Web Work?</h1>
+        <!-- <img src="./img/internet.jpg" alt=""> -->
+    </header>
+
     <!-- Navigation bar start -->
     <nav>
-
+           <a href="#internetintro">Introduction to the Internet</a>
+           <a href="#howinternetworks">How does the web work?</a>
+           <a href="#routers">Routers</a>
+           <a href="#protocols">Internet Protocols</a>
+           <a href="#ip">IP Addresses</a>
+           <a href="#dns">DNS</a>
+           <a href="#packets">Packets(TCP/UDP)</a>
+           <a href="#http">HTTP</a>
+           <a href="#html">HTML</a> 
     </nav>
+
     <!-- Main section start -->
     <main>
+        <section id="internetintro">
+            <h2>Introduction to the Internet</h2>
+            <p>
+                So what is the Internet？The Internet, in its essence, is a bunch of computers or devices, connected together. Through this connection, the computers are able to communicate. The Internet is a global communication system that links together thousands of individual networks. So basically, the Internet is a network of networks.  It allows exchange of information between two or more computers on a network. Thus Internet allows the transfer of messages through mail, chat, video and audio conference and more. It's the infrastructure that carries on top of it many services like the email, gaming, file sharing and the World Wide Web.
+            </p>
+        </section>
+
+        <section id="howinternetworks">
+            <h2>How does the Internet work?</h2>
+            <p>
+                We already established that the Internet allows devices to connect with each other and communicate. To link the devices together, we either use an ethernet cable or wireless options like Wi-Fi and Bluetooth connections.Think about the devices you already have at your house that are connected to the Internet. You probably have your pc or laptop, your smartphone, maybe a smart TV and a tablet. These devices are all connected to the Internet through your router, while at the same time, the router also connects them with each other. This is what we call a local area network (LAN).To reach a device, and be able to communicate what we need is it's IP address. Each tiny local network is connected with many other networks around the world using routing.
+            </p>
+        </section>
+
+        <section id="routers">
+            <h2>Routers</h2>
+            <p>
+                Since it's not possible to connect all of the devices that exist in the world using only physical cables, we use routers. Routers are special type of computers that make sure that the message you want to send to a specific computer reaches its destination. Routers can also connect with each other and this is how we can scale indefinitely. Routers transfer messages between devices by forwarding data packets between computer networks.
+            </p>
+        </section>
+
+        <section id="protocols">
+            <h2>Internet Protocols</h2>
+            <p>
+                There are many Internet Protocols which determine the rules of communication between devices. Some common Internet protocols include: TCP/IP,FTP and HTTP. Internet protocols play a huge role in modern digital communications and are necessary for the exchange of data throughout the Internet.
+            </p>
+            <h3>TCP/IP</h3>
+            <p>TCP/IP is the protocol which sets the rules of how connections are made between devices and how data is sent. The IP has the core function of delivering packets of information from a source device to a target device. To sent the packets to the correct computer, an IP address is necessary to identify the correct device. When we send our message off to its destination it is broken down into pieces, called packets. Each packet then can travel through a different route, some of which take longer than others. When the data packets arrive after traversing their different paths, the pieces may be out of order. The Internet Protocol makes sure the pieces arrive at their destination address. The TCP protocol makes sure that the packets are presented in the correct order together, asks for missing pieces to be resent, and lets the sender know the data he sent has been received. 
+            </p>
+        </section>
+
+        <section id="ip">
+            <h2>IP Addresses</h2>
+            <p>
+                But how does your device find other computers? IP addresses are an essential part of the Internet Protocol(IP). To be able to exchange data between devices, an IP address is used. An IP address is a unique address that identifies a device on the internet or a local network. It tells other computers what is the location of your computer in order to communicate with each other. According to the IPv4(Internet Protocol version 4), an IPv4 address may be expressed by a 32-bit integer value, formatted as four 8-bit fields separated by periods. Each 8-bit field represents a byte of the IP address. Simply, an IPv4 address is a sequence of four sets of numbers separated by dots such as 171.725.359.194. This address is unique for every device, meaning no other computer or device can share the same IP address.
+            </p>
+        </section>
+
+        <section id="dns">
+            <h2>Domain Name System(DNS)</h2>
+            <p>
+                 DNS is an acronym that stands for “Domain Name System”. Since IP addresses are hard to remember and read by humans and might change overtime, domain names are used to connect a client with a server. Domain names correspond to a specific IP address and are stored in special types of computers called DNS servers. Domain Name Servers are like an address book for websites. When you want to visit a website browser looks at the DNS to find the website's real address, which is the address of the server that hosts the website. Let's say we are trying to visit a website, which is hosted on a server that has an IP address and a domain name of www.example.com. Firstly, your browser will check in its local cache and on the computer cache. If the address isn't cached, the request goes to our Recursive DNS Servers that we have set for our computer or network which might have the address cached. If we still haven’t found it, we go to the Root DNS Servers that redirect us to the Top Level DNS Servers for the .com TLD. After that, we visit the Authoritative Name servers, which are a set of servers responsible for keeping track of your DNS records and they give us the IP address of the server.
+            </p>
+        </section>
+
+        <section id="packets">
+            <h2>Packets(TCP/UDP)</h2>
+            <p>As we said before, a router connects devices within a network by forwarding data packets between them. Both TCP and UDP are protocols used for sending packets over the Internet. They both build on top of the Internet protocol, using the IP Address to sent the packets to the correct destination. TCP(Transmission Control Protocol) guarantees the recipient will receive the packets in order by numbering them. The recipient sends messages back to the sender saying it received the messages. If the sender does not get a correct response, the packets will be resent. The recipient can also request from the sender to resent missing packets. UDP stands for User Datagram Protocol,. When using UDP, packets are just sent to the recipient. The sender will not wait to make sure the recipient received the packet, it will just continue sending the next packets. If packets are not received, we cannot request the sender to send them again.</p>
+        </section>
+
+        <section id="http">
+            <h2>HyperText Transfer Protocol - HTTP</h2>
+            <p>
+                 Hypertext Transfer Protocol is a set of rules that define a language for clients and servers to speak to each other. Clients are computers that make a request for a resource and servers are computers that respond to this request and serve the requested resource to the client. The HTTP protocol has methods, some of which are GET(Requesting resource from server), POST(creates a new resource inside the server), PUT(similar to POST but replaces a resource, serves a different resource every time ), DELETE(deletes a resource). The HTTP protocol is also a stateless protocol meaning that the server isn’t required to store session information, and each request is independent of the other.
+
+            </p>
+        </section>
+        
+        <section id="html">
+            <h2>HyperText Markup Language</h2>
+            <p>
+                HTML, which stands for HyperText Markup Language, is a markup language created by Tim Burners-Lee in 1990. It is a language used to create the basic structure of a document that is meant to be displayed in a browser."Hypertext" refers to links that connect web pages to one another. HTML uses markup to annotate text and help the browser recognize the meaning of the text and render it accordingly. This markup consists of elements, which are defined by tags, using angle brackets("<,>") and dashes ("/").
+            </p>
+        </section>
 
     </main>
 </body>
